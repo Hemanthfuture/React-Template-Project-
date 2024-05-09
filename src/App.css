@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,56 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.nav{
+  display: flex;
+  align-items: center;
+}
+.nav img{
+  width: 90px;
+}
+.nav h1{
+  color: rgb(9, 209, 245);
+  margin-right: 960px;
+}
+.nav{
+  background-color: black;
+}
+.nav h2{
+  color: white;
+}
+.Main{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.829);
+  height: 100vh;
+  margin: auto;
+}
+.Main h1{
+  margin: 0px;
+  font-size: 50px;
+  margin-bottom: 13px;
+  margin-top: 40px;
+}
+.MainContent{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  color: #ffffff;
+  height: 400px;
+  /* margin-top: 200px; */
+}
+.Main ul{
+  font-size: 20px;
+}
+.Main ul li{
+  list-style: none;
+}
+.Main li::before {
+  content: '\2022'; /* Unicode character for a bullet (circle) */
+  color: aqua; /* Change the color of the circle */
+  display: inline-block;
+  font-size: 30px;
+  width: 1em; /* Adjust the size of the circle if needed */
+  margin-right: 0.5em; /* Adjust the spacing between the circle and text */
 }
